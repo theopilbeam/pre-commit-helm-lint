@@ -1,0 +1,6 @@
+---
+    - id: helm-lint
+      name: Helm lint
+      description: Run `helm lint` on charts
+      language: docker
+      entry: helmlint
